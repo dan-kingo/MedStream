@@ -1,0 +1,8 @@
+node_modules/
+backend/src/dist/
+# Logs
+backend/src/logs
+.env
+
+pharmacy/.vite
+.vscode/
