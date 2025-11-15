@@ -58,10 +58,10 @@ export default function ContactScreen() {
           <Card.Content style={styles.cardContent}>
             <MaterialIcons name="email" size={28} color={theme.colors.primary} />
             <Text style={styles.contactType}>Email Us</Text>
-            <Text style={styles.contactInfo}>support@medimap.com</Text>
+            <Text style={styles.contactInfo}>support@MedStream.com</Text>
             <Button 
               mode="outlined" 
-              onPress={() => openLink('mailto:support@medimap.com')}
+              onPress={() => openLink('mailto:support@MedStream.com')}
               style={styles.contactButton}
               icon="email"
             >
@@ -75,7 +75,7 @@ export default function ContactScreen() {
         <Card.Content style={styles.cardContent}>
           <FontAwesome name="map-marker" size={28} color={theme.colors.primary} />
           <Text style={styles.contactType}>Corporate Office</Text>
-          <Text style={styles.contactInfo}>123 Medimap way</Text>
+          <Text style={styles.contactInfo}>123 MedStream way</Text>
           <Text style={styles.contactInfo}>poly campus, Bahir Dar</Text>
           <Text style={styles.contactInfo}>Ethiopia</Text>
           <Button 
@@ -113,16 +113,16 @@ export default function ContactScreen() {
       <View style={styles.socialContainer}>
         <Text style={styles.socialTitle}>Connect With Us</Text>
         <View style={styles.socialIcons}>
-          <TouchableOpacity onPress={() => openLink('https://facebook.com/medimap')}>
+          <TouchableOpacity onPress={() => openLink('https://facebook.com/MedStream')}>
             <FontAwesome name="facebook" size={28} color="#3b5998" style={styles.socialIcon} />
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => openLink('https://twitter.com/medimap')}>
+          <TouchableOpacity onPress={() => openLink('https://twitter.com/MedStream')}>
             <FontAwesome name="twitter" size={28} color="#1DA1F2" style={styles.socialIcon} />
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => openLink('https://instagram.com/medimap')}>
+          <TouchableOpacity onPress={() => openLink('https://instagram.com/MedStream')}>
             <FontAwesome name="instagram" size={28} color="#E1306C" style={styles.socialIcon} />
           </TouchableOpacity>
-          <TouchableOpacity onPress={() => openLink('https://linkedin.com/company/medimap')}>
+          <TouchableOpacity onPress={() => openLink('https://linkedin.com/company/MedStream')}>
             <FontAwesome name="linkedin" size={28} color="#0077B5" style={styles.socialIcon} />
           </TouchableOpacity>
         </View>

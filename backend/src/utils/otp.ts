@@ -42,7 +42,7 @@ export const sendOtpToUser = async ({phone,name,email,location}:SendOtpInput): P
   }
 
   await client.messages.create({
-    body: `Your MediMap OTP is: ${otp}`,
+    body: `Your MedStream OTP is: ${otp}`,
     from: fromPhone,
     to: phone,
   });
@@ -93,7 +93,7 @@ export const resendOtpToUser = async (phone: string): Promise<void> => {
   await user.save();
 
   await client.messages.create({
-    body: `Your MediMap OTP is: ${otp}`,
+    body: `Your MedStream OTP is: ${otp}`,
     from: fromPhone,
     to: phone,
   });

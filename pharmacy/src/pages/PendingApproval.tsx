@@ -89,7 +89,7 @@ const PendingApproval: React.FC = () => {
                 <p className="text-sm text-gray-600">
                   {pharmacy?.status === 'rejected' 
                     ? 'Unfortunately, your pharmacy application has been rejected. Please contact our support team for more information.'
-                    : 'Thank you for registering with MediMap. Your pharmacy profile has been submitted for review.'
+                    : 'Thank you for registering with MedStream. Your pharmacy profile has been submitted for review.'
                   }
                 </p>
               </div>
@@ -159,7 +159,7 @@ const PendingApproval: React.FC = () => {
                   </div>
                   <div className="flex items-center">
                     <Mail className="h-3 w-3 mr-2" />
-                    <span>Email: support@medimap.com</span>
+                    <span>Email: support@MedStream.com</span>
                   </div>
                 </div>
               </div>

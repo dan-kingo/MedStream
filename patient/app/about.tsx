@@ -12,10 +12,10 @@ export default function AboutScreen() {
 
   return (
     <>
-      <Header title="About MediMap" showBack />
+      <Header title="About MedStream" showBack />
     <ScrollView contentContainerStyle={styles.container}>
       <View style={styles.header}>
-        <Text style={[styles.title, { color: theme.colors.primary }]}>About MediMap</Text>
+        <Text style={[styles.title, { color: theme.colors.primary }]}>About MedStream</Text>
         <Text style={styles.subtitle}>Your trusted healthcare companion</Text>
       </View>
 
@@ -31,7 +31,7 @@ export default function AboutScreen() {
             <Text style={styles.sectionTitle}>Our Mission</Text>
           </View>
           <Text style={styles.text}>
-            MediMap connects patients with nearby pharmacies, making medication access 
+            MedStream connects patients with nearby pharmacies, making medication access 
             convenient and reliable. We aim to bridge the gap between healthcare providers 
             and patients through innovative technology.
           </Text>
@@ -80,7 +80,7 @@ export default function AboutScreen() {
             <Text style={styles.sectionTitle}>Our Team</Text>
           </View>
           <Text style={styles.text}>
-            MediMap is developed by a dedicated team of healthcare professionals and 
+            MedStream is developed by a dedicated team of healthcare professionals and 
             software engineers committed to improving medication access.
           </Text>
           <Divider style={styles.divider} />
@@ -122,24 +122,24 @@ export default function AboutScreen() {
         <View style={styles.iconRow}>
           <IconButton
             icon={() => <FontAwesome name="facebook" size={24} color="#3b5998" />}
-            onPress={() => openLink('https://facebook.com/medimap')}
+            onPress={() => openLink('https://facebook.com/MedStream')}
           />
           <IconButton
             icon={() => <FontAwesome name="twitter" size={24} color="#1DA1F2" />}
-            onPress={() => openLink('https://twitter.com/medimap')}
+            onPress={() => openLink('https://twitter.com/MedStream')}
           />
           <IconButton
             icon={() => <FontAwesome name="instagram" size={24} color="#E1306C" />}
-            onPress={() => openLink('https://instagram.com/medimap')}
+            onPress={() => openLink('https://instagram.com/MedStream')}
           />
           <IconButton
             icon={() => <MaterialIcons name="email" size={24} color="#D44638" />}
-            onPress={() => openLink('mailto:support@medimap.com')}
+            onPress={() => openLink('mailto:support@MedStream.com')}
           />
         </View>
       </View>
 
-      <Text style={styles.copyright}>© 2025 MediMap Inc. All rights reserved.</Text>
+      <Text style={styles.copyright}>© 2025 MedStream Inc. All rights reserved.</Text>
     </ScrollView>
     </>
   );

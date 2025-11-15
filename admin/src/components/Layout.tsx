@@ -54,7 +54,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <div className="flex items-center justify-between h-16 px-6 border-b border-gray-200">
           <h1 className="text-xl font-bold text-primary-600 flex items-center">
             <Shield className="h-6 w-6 mr-2" />
-            MediMap Admin
+            MedStream Admin
           </h1>
           <button
             onClick={() => setSidebarOpen(false)}
@@ -125,7 +125,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 <Menu className="h-6 w-6" />
               </button>
               <h1 className="text-lg font-semibold text-gray-900 lg:hidden ml-2">
-                MediMap Admin
+                MedStream Admin
               </h1>
             </div>
             

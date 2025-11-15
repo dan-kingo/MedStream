@@ -106,7 +106,7 @@ export default function RegisterScreen() {
               Create Account
             </Text>
             <Text variant="bodyMedium" style={[styles.subtitle, { color: theme.colors.onSurfaceVariant }]}>
-              Join MediMap to find medicines easily
+              Join MedStream to find medicines easily
             </Text>
           </Animated.View>
 

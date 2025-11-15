@@ -135,7 +135,7 @@ const Login: React.FC = () => {
 
         <div className="text-center">
           <p className="text-xs text-gray-500">
-            MediMap Admin Dashboard - Secure Access Only
+            MedStream Admin Dashboard - Secure Access Only
           </p>
         </div>
       </div>

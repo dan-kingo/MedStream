@@ -309,7 +309,7 @@ export const exportAnalyticsPDF = async (_req: Request, res: Response) => {
     res.setHeader('Content-Disposition', 'attachment; filename=analytics.pdf');
     doc.pipe(res);
 
-    doc.fontSize(20).text('MediMap Analytics Report', { align: 'center' });
+    doc.fontSize(20).text('MedStream Analytics Report', { align: 'center' });
     doc.moveDown();
 
     doc.fontSize(12).text(`Total Users: ${totalUsers}`);

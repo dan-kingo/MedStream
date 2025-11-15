@@ -24,7 +24,7 @@ export default function WelcomeScreen() {
           />
         </View>
         <Text variant="headlineLarge" style={[styles.title, { color: theme.colors.primary }]}>
-          MediMap
+          MedStream
         </Text>
         <Text variant="bodyLarge" style={[styles.subtitle, { color: theme.colors.onSurfaceVariant }]}>
           Find medicines from nearby pharmacies

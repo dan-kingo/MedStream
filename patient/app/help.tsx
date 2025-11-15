@@ -23,7 +23,7 @@ const faqs = [
   },
   {
     question: "How do I contact customer support?",
-    answer: "You can reach us through the 'Contact Us' screen in the app or email support@medimap.com"
+    answer: "You can reach us through the 'Contact Us' screen in the app or email support@medstream.com"
   }
 ];
 
@@ -97,7 +97,7 @@ export default function HelpScreen() {
           title="Contact Support"
           description="We're available 24/7"
           left={props => <List.Icon {...props} icon="email" />}
-          onPress={() => Linking.openURL('mailto:support@medimap.com')}
+          onPress={() => Linking.openURL('mailto:support@medstream.com')}
           style={styles.contactItem}
         />
       </View>

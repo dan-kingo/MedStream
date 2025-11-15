@@ -71,7 +71,7 @@ const Dashboard: React.FC = () => {
     <div className="space-y-6">
       <div>
         <h1 className="text-2xl font-bold text-gray-900">Admin Dashboard</h1>
-        <p className="text-gray-600">Overview of the MediMap platform</p>
+        <p className="text-gray-600">Overview of the MedStream platform</p>
       </div>
 
       {/* Stats Grid */}

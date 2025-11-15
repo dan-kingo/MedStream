@@ -68,7 +68,7 @@ export default function OtpVerificationScreen() {
         type: 'success',
         text1: isRegistration === 'true' ? 'Registration Complete' : 'Login Successful',
         text2: isRegistration === 'true' 
-          ? 'Welcome to MediMap!' 
+          ? 'Welcome to MedStream!' 
           : 'Welcome back!',
       });
       

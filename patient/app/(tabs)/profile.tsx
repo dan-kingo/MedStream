@@ -119,7 +119,7 @@ useEffect(() => {
         },
         {
           title: 'About',
-          description: 'Learn more about MediMap',
+          description: 'Learn more about MedStream',
           icon: 'information-outline',
           onPress: () => router.push('/about'),
         },
@@ -276,7 +276,7 @@ useEffect(() => {
         {/* App Version */}
         <Animated.View entering={FadeInDown.delay(1400).duration(600)}>
           <Text variant="bodySmall" style={styles.versionText}>
-            MediMap v1.0.0
+            MedStream v1.0.0
           </Text>
         </Animated.View>
       </ScrollView>
