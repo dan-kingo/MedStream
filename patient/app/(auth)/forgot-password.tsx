@@ -44,7 +44,6 @@ export default function ForgotPasswordScreen() {
 
   return (
       <View style={[styles.container, { backgroundColor: theme.colors.background }]}>
-    <Header title="Forgot Password" showBack />
     
     <KeyboardAwareScrollView 
       style={styles.content}

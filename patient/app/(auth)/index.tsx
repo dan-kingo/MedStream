@@ -90,7 +90,6 @@ export default function RegisterScreen() {
   return (
     <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
       <View style={[styles.container, { backgroundColor: theme.colors.background }]}>
-        <Header title="Sign Up" showBack />
         
         <KeyboardAwareScrollView
           style={styles.content}

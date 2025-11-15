@@ -62,7 +62,6 @@ export default function LoginScreen() {
 
   return (
     <View style={[styles.container, { backgroundColor: theme.colors.background }]}>
-      <Header title="Sign In"  />
       
         <KeyboardAwareScrollView 
         style={styles.content}

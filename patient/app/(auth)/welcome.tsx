@@ -18,7 +18,7 @@ export default function WelcomeScreen() {
       >
         <View style={[styles.iconContainer, { backgroundColor: theme.colors.primaryContainer }]}>
           <MaterialCommunityIcons 
-            name="medical-bag" 
+            name="pill" 
             size={80} 
             color={theme.colors.primary} 
           />
@@ -42,15 +42,15 @@ export default function WelcomeScreen() {
           </Text>
         </View>
         <View style={styles.feature}>
-          <MaterialCommunityIcons name="pill" size={32} color={theme.colors.primary} />
+          <MaterialCommunityIcons name="upload-box" size={32} color={theme.colors.primary} />
           <Text variant="bodyMedium" style={styles.featureText}>
-            Find medicines easily
+            Upload Prescriptions
           </Text>
         </View>
         <View style={styles.feature}>
           <MaterialCommunityIcons name="truck-delivery" size={32} color={theme.colors.primary} />
           <Text variant="bodyMedium" style={styles.featureText}>
-            Home delivery available
+           Track realtime delivery
           </Text>
         </View>
       </Animated.View>
