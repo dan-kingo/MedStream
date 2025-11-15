@@ -4,26 +4,38 @@ export const theme = {
   ...MD3LightTheme,
   colors: {
     ...MD3LightTheme.colors,
-    primary: '#2563eb',
-    primaryContainer: '#dbeafe',
-    secondary: '#10b981',
-    secondaryContainer: '#d1fae5',
-    tertiary: '#f59e0b',
-    tertiaryContainer: '#fef3c7',
-    error: '#ef4444',
-    errorContainer: '#fecaca',
-    surface: '#ffffff',
-    surfaceVariant: '#f8fafc',
-    background: '#f8fafc',
-    onPrimary: '#ffffff',
-    onSecondary: '#ffffff',
-    onTertiary: '#ffffff',
-    onError: '#ffffff',
-    onSurface: '#1e293b',
-    onSurfaceVariant: '#64748b',
-    onBackground: '#1e293b',
-    outline: '#cbd5e1',
-    outlineVariant: '#e2e8f0',
+
+    /* 🌿 Primary tones – Emerald & Teal */
+    primary: '#00B894',            // fresh emerald green
+    primaryContainer: '#C8FCEA',   // very light mint container
+    secondary: '#2D3436',          // deep slate gray for contrast
+    secondaryContainer: '#E8EAED', // cool neutral container
+
+    /* ✨ Accent / Tertiary */
+    tertiary: '#FF8C42',           // warm orange for call-to-action buttons
+    tertiaryContainer: '#FFE7D0',  // soft peach background
+
+    /* ❌ Feedback colors */
+    error: '#EF4444',              // bright coral red
+    errorContainer: '#FECACA',
+
+    /* 🧱 Surfaces & Backgrounds */
+    surface: '#FFFFFF',            // card & modal background
+    surfaceVariant: '#F5FFFA',     // mint-tinted background
+    background: '#F5FFFA',         // overall app background (different from MediMap’s pure white)
+
+    /* 🖋️ Text & Content */
+    onPrimary: '#FFFFFF',
+    onSecondary: '#FFFFFF',
+    onTertiary: '#FFFFFF',
+    onError: '#FFFFFF',
+    onSurface: '#222F3E',          // deep slate text
+    onSurfaceVariant: '#636E72',   // muted gray text
+    onBackground: '#222F3E',
+
+    /* 🪶 Borders & Outlines */
+    outline: '#B2BEC3',
+    outlineVariant: '#DFE6E9',
   },
-  roundness: 12,
+  roundness: 14,                   // slightly softer corners for a friendly, modern feel
 };
